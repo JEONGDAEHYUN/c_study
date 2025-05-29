@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void main()
+{	
+	char a, b, c;
+
+	a = 'A';
+	print("%c \n", a);
+	print("%d \n", a);
+
+	b = 'a';
+	c = b + 5;
+	print("%c \n", b);
+	print("%c \n", c);
+
+	c = 90;
+	print("%c \n", c);
+}
